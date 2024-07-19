@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("images/adam-kool-ndN00KmbJ1c-unsplash.jpg"); }
+  .img2 { background-image: url("images/blake-verdoorn-cssvEZacHvQ-unsplash.jpg"); }
+  .img3 { background-image: url("images/johannes-andersson-UCd78vfC8vU-unsplash.jpg"); }
+  .img4 { background-image: url("images/samsommer-vddccTqwal8-unsplash.jpg"); }
+  .img5 { background-image: url("images/urban-vintage-78A265wPiO4-unsplash.jpg"); }
+  .img6 { background-image: url("images/qingbao-meng-01_igFr7hd4-unsplash.jpg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+  }
+  
+  /* Style for the navigation links */
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Darken background on hover */
+    color: #000; /* Change text color on hover */
+  }
